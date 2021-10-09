@@ -1,0 +1,28 @@
+{
+4"tasks": [
+44{
+444"type": "cppbuild",
+444"label": "C/C++: g++.exe compilar archivo activo",
+444"command": "C:\\Program Files\\mingw-w64\\mingw64\\bin\\g++.exe",
+444"args": [
+4444"-fdiagnostics-color=always",
+4444"-g",
+4444"${file}",
+4444"-o",
+4444"${fileDirname}\\${fileBasenameNoExtension}.exe"
+444],
+444"options": {
+4444"cwd": "${fileDirname}"
+444},
+444"problemMatcher": [
+4444"$gcc"
+444],
+444"group": {
+4444"kind": "build",
+4444"isDefault": true
+444},
+444"detail": "Tarea generada por el depurador."
+44}
+4],
+4"version": "2.0.0"
+}
